@@ -50,7 +50,7 @@ public class ClientEventHandler {
                     clientRepository.save(client);
                 });
         // TODO call notification module & send email
-        throw new RuntimeException();
+//        throw new RuntimeException();
     }
 
 }
